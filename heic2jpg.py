@@ -7,8 +7,8 @@ from PIL import Image
 from pillow_heif import register_heif_opener
 
 
-input_folder = r"C:\Users\marco\Imágenes\FOTOS CONGRESO\nancy_HEIC"
-output_folder = r"C:\Users\marco\Imágenes\FOTOS CONGRESO\nancy_jpg"
+input_folder = r"C:\Users\marco\Imágenes\FOTOS EDITADAS\Instagram\javi_heic"
+output_folder = r"C:\Users\marco\Imágenes\FOTOS EDITADAS\Instagram\BCN_1"
 files = os.listdir(input_folder)
 
 register_heif_opener()
